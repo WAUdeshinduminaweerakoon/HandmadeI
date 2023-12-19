@@ -1,6 +1,7 @@
 package com.HandmadeI.HandmadeI.UserController;
 
 
+import com.HandmadeI.HandmadeI.Dto.UserDTO;
 import com.HandmadeI.HandmadeI.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -12,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
 
     @Autowired
-    private UserService userService;
+    private  UserService userService;
 
     @PostMapping(path = "/save")
     public String saveUser(@RequestBody UserDTO userDTO){
