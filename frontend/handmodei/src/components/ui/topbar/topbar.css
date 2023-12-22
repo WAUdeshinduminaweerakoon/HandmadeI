@@ -1,0 +1,24 @@
+
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.topbarLift{
+    flex-grow: 1;
+    align-items: center;
+}
+.topbarMiddle{
+    flex-grow: 4;
+    align-items: center;
+
+}
+
+.topbarRight{
+    flex-grow: 1;
+    align-items: center;
+
+}
