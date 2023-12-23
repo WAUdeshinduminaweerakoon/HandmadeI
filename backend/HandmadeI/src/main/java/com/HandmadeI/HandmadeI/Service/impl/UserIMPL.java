@@ -6,8 +6,10 @@ import com.HandmadeI.HandmadeI.Repo.UserRepo;
 import com.HandmadeI.HandmadeI.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
 
 @SuppressWarnings("ALL")
+@Service
 public class UserIMPL implements UserService {
 
     @Autowired
